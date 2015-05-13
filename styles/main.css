@@ -1,0 +1,37 @@
+body {
+	background-color: gray;
+}
+
+section {
+	background-color: gray;
+	max-width: 90%;
+}
+
+.column-center {
+	text-align: center
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+	display: block;
+}
+
+li {
+	margin: 50px auto;
+	max-width: 100px;
+	padding: 1em;
+	background-color: darkorange;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+a {
+	margin: 0 auto;
+	color: black;
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+}
