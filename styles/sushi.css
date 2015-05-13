@@ -1,0 +1,81 @@
+body {
+	font-size: 62.5%;
+	
+}
+
+img {
+	max-width:100%;
+}
+
+
+.container {
+	margin: 0 100px;
+	max-width: 100%;
+	text-align: center;
+	margin-top: 20%;
+}
+
+.container ul {
+	padding-left: 0px;
+}
+
+.container li {
+	display: inline-block;
+	max-width: 33%;
+	vertical-align: top;
+	text-align: left;
+}
+
+li p {
+	max-width: 75%;
+}
+
+/*tablet*/
+@media (max-width: 992px) {
+	
+	.container li {
+		display: block;
+		max-width: none;
+	}
+	
+	.food-pic {
+		display: inline-block;
+		margin: 1%;
+		max-width: 45%;
+		vertical-align: middle;
+	}
+	
+	.food-text {
+		display: inline-block;
+		max-width: 45%;
+		vertical-align: middle;
+	}
+	
+}
+/*mobile*/
+@media (max-width: 768px) {
+		
+		.container li {
+		display: block;
+		max-width: none;
+	}
+	
+	li p{
+		max-width: 50%;
+		margin-left: 25%;
+	}
+	
+	.food-pic {
+		display: block;
+		max-width: 100%;
+		text-align: center;
+
+	}
+	
+	.food-text {
+		display: block;
+		max-width: 100%;
+		text-align: center;
+	}
+		
+}
